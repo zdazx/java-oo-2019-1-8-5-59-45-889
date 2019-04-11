@@ -1,12 +1,11 @@
 package practice09;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Klass {
     private int number;
     private Student leader;
-    private List<Student> students;
+    private ArrayList<Student> students;
 
     Klass(int number){
         this.number = number;
