@@ -54,8 +54,6 @@ public class Klass extends Observable {
     @Override
     public synchronized void addObserver(Observer o) {
         observers.add(o);
-
-
     }
 
     @Override
